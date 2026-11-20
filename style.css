@@ -202,7 +202,7 @@ main section:last-of-type img {
 }
 
 main section:last-of-type div:first-child {
-    top: -150px;
+    top: -100px;
     left: 10%;
     transform: translateX(-50%);
 }
@@ -211,6 +211,59 @@ main section:last-of-type div:last-child {
     top: 240px;
     left: 90%;
     transform: translateX(-50%);
+}
+
+/* About page */
+main.about-page {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 30px 5% 80px;
+    text-align: center;
+}
+
+main.about-page > h1 {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    z-index: 2;
+    margin: 0 auto 20px;
+    font-size: 36px;
+    text-align: left;
+}
+
+main.about-page .about-photo {
+    position: relative;
+    z-index: 2;
+    height: 450px;
+    margin: 0 auto 20px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+main.about-page section.about-info {
+    position: relative;
+    inset: auto;
+    z-index: 2;
+    min-height: 440px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: left;
+}
+
+main.about-page .about-info h2 {
+    margin: 0 0 25px;
+    font-size: 32px;
+    line-height: 1.15;
+}
+
+main.about-page .about-info p,
+main.about-page .about-info li {
+    font-size: 16px;
+    line-height: 1.4;
 }
 
 /* footer */
