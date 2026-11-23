@@ -22,6 +22,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #1e1e1e;
     background-color: #FCA0C9;
+    cursor: url("images/cursor.png") 16 16, auto;
 }
 
 body {
